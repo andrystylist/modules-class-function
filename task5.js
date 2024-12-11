@@ -4,9 +4,8 @@
 export function rubricPassFail(score) {
   score = parseInt(score)
   if(score >= 5) {
-    return ('Pass')
+    return 'Pass'
   }
-  else{
-    return ('Fail')
-  }
+  return 'Fail'
+  
 }

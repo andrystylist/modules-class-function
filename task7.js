@@ -7,9 +7,8 @@ export function rubricPerfect(score) {
     return 'Excellent'
   }
   else if(score >= 5) {
-    return ('Pass')
+    return 'Pass'
   }
-  else{
-    return ('Fail')
-  }
+  return 'Fail'
+  
 }
