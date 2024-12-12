@@ -13,4 +13,5 @@ export function ageCalculator(year, month, day) {
   
     return age;
   }
-  
+  console.log(ageCalculator(2001, 12, 25))
+

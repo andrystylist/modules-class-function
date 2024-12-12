@@ -1,6 +1,6 @@
-export function costCalculator(cantidadNumber) {
+export function costCalculator(amountNumber) {
   // const cantidadNumber = cantidad*1
-  const comision = 3
-  const comisionInteres = cantidadNumber * 0.01
-  return cantidadNumber + comision + comisionInteres
+  const commission = 3
+  const commissionInterest = amountNumber * 0.01
+  return amountNumber + commission + commissionInterest
 }

@@ -10,3 +10,4 @@ export class FriendNames {
     }
   }
   const friends = new FriendNames('Andry', 'Carlos', 'Jose')
+console.log(friends)
